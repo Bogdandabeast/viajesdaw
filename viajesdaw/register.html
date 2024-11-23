@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contacto</title>
+   <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <a href="index.html">
+            <img src="images/logo.png" alt="Logo principal">
+         </a>
+
+         <div id="links">
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre Nosotros</a>
+            <a href="contact.html">Contacto</a>
+         </div>
+
+         <div id="sesion">
+            <button>Iniciar Sesion</button>
+            <button>Registrarse</button>
+
+            <div id="movil">
+               <i class="bi bi-list"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <main>
+      <div id="contacto-formulario">
+         <h2>Registro</h2>
+         <form action="enviar_formulario.php" method="POST">
+            <div class="campo">
+               <label for="nombre">Usuario</label>
+               <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="campo">
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+            </div>
+            <div class="campo">
+               <label for="contrasena">Contraseña</label>
+               <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+            </div>
+            <div class="campo">
+               <label for="confirmcontrasena">Confirmar Contraseña</label>
+               <input type="password" id="confirmcontrasena" name="confirmcontrasena" placeholder="Confirmar contraseña" required>
+            </div>
+            <div class="campo">
+               <button type="submit">Enviar Mensaje</button>
+            </div>
+         </form>
+      </div>
+
+      <section id="experiencias">
+         <h2>Experiencias</h2>
+         <div class="galeria-contenedor">
+            <a href="cantabria.html"> <img src="images/experiencias/cantabria.png" alt="Foto de Cantabria"> <span>Cantabria</span></a>
+            <a href="andalucia.html"> <img src="images/experiencias/andalucia.png" alt="Foto de Andalucía"> <span>Andalucía</span></a>
+            <a href="madrid.html"> <img src="images/experiencias/madrid.png" alt="Foto de Madrid"> <span>Madrid</span></a>
+            <a href="paisvasco.html"> <img src="images/experiencias/paisvasco.png" alt="Foto del País Vasco"> <span>País Vasco</span></a>
+            <a href="navarra.html"> <img src="images/experiencias/navarra.png" alt="Foto de Navarra"> <span>Navarra</span></a>
+            <a href="castillamancha.html"> <img src="images/experiencias/castillamancha.png" alt="Foto de Castilla la Mancha"> <span>Castilla la Mancha</span></a>
+            <a href="aragon.html"> <img src="images/experiencias/aragon.png" alt="Foto de Aragón"> <span>Aragón</span></a>
+            <a href="galicia.html"> <img src="images/experiencias/galicia.png" alt="Foto de Galicia"> <span>Galicia</span></a>
+            <a href="valencia.html"> <img src="images/experiencias/valencia.png" alt="Foto de Valencia"> <span>Valencia</span></a>
+            <a href="murcia.html"> <img src="images/experiencias/murcia.png" alt="Foto de Murcia"> <span>Murcia</span></a>
+            <a href="castilladeleon.html"> <img src="images/experiencias/castillaleon.png" alt="Foto de Castilla de León"> <span>Castilla de León</span></a>
+            <a href="extremadura.html"> <img src="images/experiencias/extremadura.png" alt="Foto de Extremadura"> <span>Extremadura</span></a>
+            <a href="larioja.html"> <img src="images/experiencias/larioja.png" alt="Foto de La Rioja"> <span>La Rioja</span></a>
+            <a href="catalunia.html"> <img src="images/experiencias/catalunia.png" alt="Foto de Cataluña"> <span>Cataluña</span></a>
+            <a href="asturias.html"> <img src="images/experiencias/asturias.png" alt="Foto de Asturias"> <span>Asturias</span></a>
+         </div>
+      </section>
+   </main>
+
+   <footer>
+      <img id="logo" src="images/logo.png" alt="Logo principal">
+      <div>
+         <div id="redes-sociales">
+            <img src="images/instagram.png" alt="Ícono de Instagram">
+            <img src="images/facebook.png" alt="Ícono de Facebook">
+            <img src="images/x.png" alt="Ícono de X (anteriormente Twitter)">
+         </div>
+
+         <div id="links-footer">
+            <a href="faq.html">FAQ</a>
+            <a href="terminos.html">Términos y Condiciones</a>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
+

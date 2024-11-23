@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contacto</title>
+   <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <a href="index.html">
+            <img src="images/logo.png" alt="Logo principal">
+         </a>
+
+         <div id="links">
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre Nosotros</a>
+            <a href="contact.html">Contacto</a>
+         </div>
+
+         <div id="sesion">
+            <button>Iniciar Sesion</button>
+            <button>Registrarse</button>
+
+            <div id="movil">
+               <i class="bi bi-list"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <main>
+      <div id="contacto-formulario">
+         <h2>Iniciar Sesión</h2>
+         <form action="enviar_formulario.php" method="POST">
+            <div class="campo">
+               <label for="nombre">Usuario</label>
+               <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="campo">
+               <label for="contrasena">Contraseña</label>
+               <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+            </div>
+            <div class="campo">
+               <button type="submit">Enviar Mensaje</button>
+            </div>
+         </form>
+      </div>
+   </main>
+
+   <footer>
+      <img id="logo" src="images/logo.png" alt="Logo principal">
+      <div>
+         <div id="redes-sociales">
+            <img src="images/instagram.png" alt="Ícono de Instagram">
+            <img src="images/facebook.png" alt="Ícono de Facebook">
+            <img src="images/x.png" alt="Ícono de X (anteriormente Twitter)">
+         </div>
+
+         <div id="links-footer">
+            <a href="faq.html">FAQ</a>
+            <a href="terminos.html">Términos y Condiciones</a>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
+
